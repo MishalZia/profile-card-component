@@ -18,9 +18,11 @@ body {
   align-items: center;
   justify-content: center;
   background-color: hsl(185, 75%, 39%);
-  background-image: url("../images/bg-pattern-bottom.svg");
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
   background-repeat: no-repeat;
   position: relative;
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
 
 .profile-card-component {
